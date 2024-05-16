@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Toe-Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <audio id="clickSound" src="click-sound.mp3"></audio>
+    <audio id="winSound" src="winning-sound.mp3"></audio>
+    <audio id="tieSound" src="tie-sound.mp3"></audio>
+</head>
+<body>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="msg-container hide">
+            <p id="msg">Message</p>
+            <button id="new-btn">New Game</button>
+        </div>
+        <div class="" id="turn">
+            <p>Player O's turn</p>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-btn">Reset Game</button>
+        <div class="count">
+            <span id="o_score">O-Wins: <span id="count_o">0</span></span> <span id="o_score">X-Wins: <span id="count_x">0 </span></span><span id="ties">Ties: <span id="count_ties">0</span></span>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

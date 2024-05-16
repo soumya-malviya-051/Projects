@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 100;
+    font-family: "Jaro", sans-serif;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin: 10px;
+    font-family: "Exo 2", sans-serif;
+}
+
+#reset-btn:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+#new-btn {
+    margin: 10px;
+    margin-bottom: 1px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: 1px solid white;
+    font-family: "Exo 2", sans-serif;
+}
+
+
+#new-btn:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+#msg {
+    color: white;
+    font-size: 8vmin;
+    font-family: "Exo 2", sans-serif;
+}
+
+.msg-container {
+    height: 20vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.turn_hide{
+    display:none;
+}
+
+#turn{
+    font-family: "Exo 2", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.count{
+    border: 2px solid black;
+    background-color: white;
+    height: 8vmin;
+    font-size: 30px;
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#x_score{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+#o_score{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+#ties{
+    border:2px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 1rem;
+}
